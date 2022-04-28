@@ -378,6 +378,8 @@ aside {
 
 /*** TABLET STYLES HERE ***/
 
+/* HOMEPAGE */
+
 @media only screen and (min-width: 768px) {
 
   /* General Styles */
@@ -396,17 +398,14 @@ header {
 header .content-wrapper {
   width: 100%; 
   justify-content: space-between; 
-  background-color: beige;
 }
 
 header nav {
   width: 20%; 
-  background-color: antiquewhite;
 }
 
 header nav ul {
   justify-content: space-between; 
-  background-color: olive;
 }
 
 .header-divider {
@@ -472,7 +471,7 @@ footer .copyright {
   width: 100%; 
 }
 
-}
+
 
 	
 /* ==========================================================================
@@ -518,21 +517,94 @@ footer .copyright {
     .faq h2 {
       width: 100%;
     }
-  }
+  
 
-
-
-
-
-
-
-/*** DESKTOP STYLES HERE ***/
-@media only screen and (min-width: 1200px) {
 
 }
 
 
 
+
+/*** DESKTOP STYLES HERE ***/
+
+/* HOMEPAGE */
+
+@media only screen and (min-width: 1200px) {
+
+  /* General Styles */
+
+.content-wrapper {
+  max-width: 960px;
+  background-color: antiquewhite;
+}
+
+  /* Hero */
+  .hero-area h1 {
+    width: 60%;
+}
+
+/* Aside */
+aside .content-wrapper {
+  justify-content: space-around;
+}
+
+aside .content-wrapper .form-description,
+aside .content-wrapper .form {
+  width: 30%;
+}
+
+/* Features */
+
+.features .content-wrapper {
+  background-color: aquamarine;
+}
+
+.features-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap; 
+  background-color: lightpink;
+}
+
+.features-item-description {
+  background-color: #b3d4fc;
+}
+
+
+.features article {
+  background-color: lightgreen;
+  flex-basis 33%; 
+}
+
+.features h2 {
+  width: 90%; 
+}
+
+
+
+
+
+
+
+/* ==========================================================================
+   About Page
+   ========================================================================== */
+
+
+
+
+
+
+
+/* ==========================================================================
+     FAQ Page
+   ========================================================================== */
+
+
+
+
+}
 
 
 
