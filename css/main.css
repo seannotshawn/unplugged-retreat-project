@@ -91,11 +91,6 @@ textarea {
 
 /* -------------------- Base Header - Footer Styles -------------------- */
 
-.content-wrapper {
-  width: 90%; 
-  margin: 50px 0; 
-}
-
 header, footer {
   display: flex; 
   justify-content: center;
@@ -174,6 +169,70 @@ footer .copyright {
 
 /* -------------------- Mobile Styles - Homepage -------------------- */
 
+/* General Styles */
+ 
+html {
+	font-size: 16px;
+}
+ 
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em; 
+  text-align: left; 
+}
+ 
+ul, 
+ol {
+ list-style-type: none;
+}
+ 
+a {
+  color: #e2e3ed;
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 2.25em;
+}
+ 
+h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.875em;
+}
+ 
+h3, 
+h4 {
+  font-family: 'Poppins', sans-serif;
+  margin: 20px 0;
+  font-size: 1.125em;
+}
+ 
+p {
+  font-size: .875em;
+  line-height: 1.285;
+}
+ 
+img {
+ 
+}
+ 
+figure {
+ 
+}
+ 
+address {
+ font-size: 0.875em;
+ font-style: normal;
+}
+ 
+.content-wrapper {
+  width: 90%; 
+  margin: 50px 0; 
+}
+
+
+
+
 /* Hero Area */
 
 .hero-area {
@@ -236,7 +295,7 @@ aside {
 
 
 
-/*** ABOUT PAGE ***/
+/*** -----------------------------Mobile Styles - ABOUT PAGE---------------------------------------- ***/
 
 .mission {
   display: flex; 
@@ -256,7 +315,7 @@ aside {
   margin: 0;
 }
 
-/*** FAQ PAGE ***/
+/*** -------------------------------------Mobile Styles - FAQ PAGE--------------------------------------- ***/
 
 .faq {
   display: flex;
@@ -535,7 +594,6 @@ footer .copyright {
 
 .content-wrapper {
   max-width: 960px;
-  background-color: antiquewhite;
 }
 
   /* Hero */
@@ -554,25 +612,15 @@ aside .content-wrapper .form {
 }
 
 /* Features */
-.features .content-wrapper {
-  background-color: aquamarine;
-}
-
 .features .features-items {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap; 
-  background-color: lightpink;
-}
-
-.features-item-description {
-  background-color: #b3d4fc;
 }
 
 
 .features article {
-  background-color: lightgreen;
   flex-basis: 33%; 
 }
 
@@ -585,11 +633,6 @@ aside .content-wrapper .form {
     width: 42%;
   }
 
-
-
-
-
-
 /* ==========================================================================
    About Page
    ========================================================================== */
@@ -598,11 +641,6 @@ aside .content-wrapper .form {
    .contact-section .content-wrapper h2 {
        width: 95%;
    }
- 
-
-
-
-
 
 /* ==========================================================================
      FAQ Page
@@ -610,8 +648,6 @@ aside .content-wrapper .form {
    .faq h2 {
     width: 100%;
   }
-
-
 
 }
 
