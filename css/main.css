@@ -554,12 +554,11 @@ aside .content-wrapper .form {
 }
 
 /* Features */
-
 .features .content-wrapper {
   background-color: aquamarine;
 }
 
-.features-items {
+.features .features-items {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -574,13 +573,17 @@ aside .content-wrapper .form {
 
 .features article {
   background-color: lightgreen;
-  flex-basis 33%; 
+  flex-basis: 33%; 
 }
 
 .features h2 {
   width: 90%; 
 }
 
+  /* Reviews */
+  .reviews article div {
+    width: 42%;
+  }
 
 
 
@@ -591,7 +594,11 @@ aside .content-wrapper .form {
    About Page
    ========================================================================== */
 
-
+   .mission h2,
+   .contact-section .content-wrapper h2 {
+       width: 95%;
+   }
+ 
 
 
 
@@ -600,7 +607,9 @@ aside .content-wrapper .form {
 /* ==========================================================================
      FAQ Page
    ========================================================================== */
-
+   .faq h2 {
+    width: 100%;
+  }
 
 
 
