@@ -134,11 +134,11 @@ p {
 }
  
 img {
- 
+ width: 100%; 
 }
  
 figure {
- 
+ margin: 0; 
 }
  
 address {
@@ -169,6 +169,9 @@ header {
   padding: 15px 0;  
 }
 
+header figure {
+  width: 63%; 
+}
 
 header .content-wrapper {
   margin: 0; 
@@ -244,6 +247,10 @@ footer .copyright {
   display: flex;  
   justify-content: center; 
   flex-flow: row wrap; 
+  background-image: url('../img/hero-image.png');
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  background-position: center; 
 }
 
 .hero-area h1 {
@@ -294,6 +301,10 @@ input[type=button] {
   display: flex; 
   justify-content: center;
   flex-flow: row wrap;
+  background-image: url('../img/rawpixel-unsplash.png');
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  background-position: center; 
 }
 
 .features h2 {
@@ -323,6 +334,12 @@ input[type=button] {
   display: flex; 
   justify-content: center;
   flex-flow: row wrap;
+}
+
+.reviews figure {
+  display: flex; 
+  justify-content: center; 
+  flex-flow: row wrap; 
 }
 
 .reviews h2 {
@@ -560,6 +577,13 @@ header nav ul {
   margin: 0;
 }
 
+.hero-area {
+background-image: url('../img/hero-image.png');
+background-size: cover; 
+background-repeat: no-repeat; 
+background-position: center; 
+}
+
 /* Aside */
 aside .content-wrapper {
   display: flex; 
@@ -575,6 +599,13 @@ aside .content-wrapper .form {
 }
 
 /* Features */
+
+.features {
+background-image: url('../img/rawpixel-unsplash.png');
+background-size: cover; 
+background-repeat: no-repeat; 
+background-position: center; 
+}
 
 .features h2 {
   margin-bottom: 20px; 
@@ -602,7 +633,7 @@ aside .content-wrapper .form {
   width: 85%; 
 }
 
-.reviews article div {
+.reviews article div, .reviews article figure {
   width: 49%; 
 }
 
@@ -731,6 +762,13 @@ p {
     font-size: 3.75em; 
 }
 
+.hero-area {
+  background-image: url('../img/hero-image.png');
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  background-position: center; 
+  }
+
 /* Aside */
 aside .content-wrapper {
   justify-content: space-around;
@@ -746,6 +784,8 @@ aside .content-wrapper .form {
 }
 
 /* Features */
+
+
 
 .features article {
   flex-basis: 33%; 
