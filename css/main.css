@@ -105,6 +105,8 @@ body {
 ul, 
 ol {
  list-style-type: none;
+ margin: 0;
+ padding: 0; 
 }
  
 a {
@@ -119,6 +121,8 @@ h1 {
 h2 {
   font-family: 'Poppins', sans-serif;
   font-size: 1.875em;
+  font-weight: 500; 
+  margin: 0; 
 }
  
 h3, 
@@ -126,6 +130,7 @@ h4 {
   font-family: 'Poppins', sans-serif;
   margin: 20px 0;
   font-size: 1.125em;
+  font-weight: 500; 
 }
  
 p {
@@ -251,6 +256,7 @@ footer .copyright {
   background-size: cover; 
   background-repeat: no-repeat; 
   background-position: center; 
+  min-height: 500px; 
 }
 
 .hero-area h1 {
@@ -326,6 +332,12 @@ input[type=button] {
 .features p {
   text-align: center;
   margin: 0; 
+}
+
+.fontawesome-icon {
+  color: #e2e3ed;
+  font-size: 2em; 
+  padding: 20px 0 20px 0; 
 }
 
 /* Reviews */
@@ -738,6 +750,7 @@ footer .copyright {
     }
 
 
+
    /* ==========================================================================
      FAQ Page
      ========================================================================== */
@@ -791,7 +804,7 @@ p {
 
   /* Hero */
   .hero-area h1 {
-    width: 60%;
+    width: 80%;
     font-size: 3.75em; 
 }
 
